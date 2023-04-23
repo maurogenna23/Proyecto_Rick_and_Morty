@@ -1,0 +1,18 @@
+.favoritesContainer{
+    text-align: center;
+}
+
+select{
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 15%;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(61, 63, 59, 0.979);
+    color: white;
+    border: transparent;
+}
+.Card{
+    margin-top: 20px;
+}

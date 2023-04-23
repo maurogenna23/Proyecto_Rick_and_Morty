@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    background-image: url(../../assets/detailsCard.png);
+    background-size: cover;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.details{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 65px;
+    background-color: rgb(46, 43, 43);
+    border-radius: 10px;
+    width: 100%;
+}
+.p{
+    margin-top: 38px;
+    width: 80%;
+    margin-left: 35px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(231, 224, 224);
+    color: black;
+    border-radius: 10px;
+}
+.detailImg{
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 100%;
+}
