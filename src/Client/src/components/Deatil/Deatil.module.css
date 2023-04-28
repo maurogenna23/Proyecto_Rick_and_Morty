@@ -1,0 +1,45 @@
+.contenedor{
+    background-color: rgba(201, 196, 190, 0.904);
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.title{
+    color: rgb(255, 254, 254);
+    text-align: center;
+    background-color: rgba(72, 77, 77, 0.548);
+    width: 30%;
+    height: 50px;
+    margin-left: 665px;
+}
+
+.card{
+    display: flex;
+}
+
+.cardInfo{
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 25px;
+}
+.h2{
+    height: 50px;
+    font-size: 21px;
+    background-color: rgb(175, 161, 161);
+    border: 1px solid rgb(49, 47, 47);
+    color: rgb(24, 22, 22);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.imagen{
+    width: 50%;
+    height: 350px;
+    margin: 10px;
+    margin-top: 25px;
+    border-radius: 5px;
+}

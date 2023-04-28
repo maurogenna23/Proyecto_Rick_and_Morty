@@ -1,0 +1,93 @@
+.container{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid rgba(5, 5, 5, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(61, 65, 63);
+    box-shadow: 5px 2px 5px rgb(112, 108, 108);
+    width: 280px;
+    height: 415px;
+    transition: 2s;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.miImagen{
+    width: 280px;
+    height: 300px;
+}
+
+.name{
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 4px;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color:white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(145, 118, 29);
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+.name:disabled {
+    pointer-events: none;
+  }
+  
+  .name:hover {
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .name:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+.text{
+    font-size: 18px;
+    background-color: rgb(231, 237, 243);
+    color: black;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.like{
+    position: absolute;
+    height: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+
+}
+.buttonX{
+    position: absolute;
+    margin-left: 250px;
+    height: 30px;
+    width: 30px;
+    border: white;
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}
+.buttonX:hover{
+    background-color: red;
+    color: white;
+}

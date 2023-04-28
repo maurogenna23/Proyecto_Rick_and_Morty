@@ -1,0 +1,107 @@
+.container{
+    margin-left: 660px;
+    margin-top: 5px;
+}
+.bar{
+    width: 280px;
+    margin-right: 15px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.random{
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    width: 120px;
+    height: 70px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .random:disabled {
+    pointer-events: none;
+  }
+  
+  .random:hover {
+    color: white;
+    background-image: url(../../Assets/random.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .random:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  .add{
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    width: 120px;
+    height: 70px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+  }
+  
+  .add:disabled {
+    pointer-events: none;
+  }
+  
+  .add:hover {
+    color: rgb(19, 124, 19);
+    background-color: #e4dede;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .add:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
