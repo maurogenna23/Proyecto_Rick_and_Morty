@@ -29,10 +29,6 @@ useEffect(() => {
    });
 }, [id,myFavorites]);
 
-
-
-
-
    return (
       <div className={style.container}>
             {
@@ -48,7 +44,7 @@ useEffect(() => {
          
          <img className={style.miImagen} src={image} alt='' /> 
 
-         <Link className={style.link} to={`/detail/${id}`}><h2 className={style.name}>Nombre: {name}</h2></Link>
+         <Link className={style.link} to={`/detail/${id}`}><h2 className={style.name}>{name}</h2></Link>
          <h2 className={style.text} >Estado: {status}</h2>
          <h2 className={style.text} >Especie: {species}</h2>
          <h2 className={style.text} >Genero: {gender}</h2>  

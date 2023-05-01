@@ -1,23 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@500&display=swap');
 
-.container{
+.container {
     display: flex;
-    background-color: rgba(165, 156, 156, 0.966);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f2f2f2;
+    border-radius: 10px;
     width: 50%;
-    margin-left: 550px;
-    margin-top: 100px;
-    border-radius: 10px;
-}
-.imagen{
-    width: 60%;
-    height: 500px;
-    border: 1px solid white;
-    border-radius: 10px;
-}
+    margin: 0 auto;
+    margin-top: 200px;
+    background: linear-gradient(to bottom, #fff 0%, #ddd 100%);
+  }
+  
+  .myName{
+    color: rgb(8, 80, 109);
+  }
 
-.descripcion{
-    font-family: 'Josefin Sans', sans-serif;
+  .descripcion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: justify;
+    margin: 0 2rem;
+  }
+  
+  .imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .link{
+    margin-left: 5px;
     font-size: 25px;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    height: 100%;
-}
+    color: rgba(94, 72, 14, 0.918);
+  }
+  
+  
+  

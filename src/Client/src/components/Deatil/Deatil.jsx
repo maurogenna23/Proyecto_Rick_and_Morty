@@ -23,20 +23,19 @@ const Detail = () => {
 
 
     return(
-        <div>
-            <h1 className={style.title}>Detail</h1>
-        <div className={style.contenedor}>
-        <div className={style.card}>
-           <div className={style.cardInfo}>
-                <h2 className={style.h2}>Nombre: {character?.name}</h2>
-                <h2 className={style.h2}>Estado: {character?.status}</h2>
-                <h2 className={style.h2}>Especie: {character?.species}</h2>
-                <h2 className={style.h2}>Genero: {character?.gender}</h2>
-                <h2 className={style.h2}>Origen: {character?.origin?.name}</h2>
-            </div> 
-            <img className={style.imagen} src={character?.image} alt={character?.name} />
-        </div>
-
+        <div className={style.container}>
+            <h1 className={style.title}>DETAIL</h1>
+        <div className={style.info}>
+        <img className={style.imagen} src={character?.image} alt={character?.name} />
+            <div className={style.details}>
+                <div className={style.backgroundName}>
+                    <h1 className={style.h1}>{character?.name}</h1>
+                </div>
+                    <h2 className={style.h2}>ESTADO: {character?.status}</h2>
+                    <h2 className={style.h2}>ESPECIE: {character?.species}</h2>
+                    <h2 className={style.h2}>GÉNERO: {character?.gender}</h2>
+                    <h2 className={style.h2}>ORIGEN: {character?.origin?.name}</h2>
+                </div>
         </div>
         </div>
     )
