@@ -1,14 +1,14 @@
 .container{
     display: inline-block;
     margin-top: 25px;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-bottom: 10px;
     color: white;
     border: 2px solid rgba(5, 5, 5, 0);
     border-radius: 10px;
     background-color: rgb(61, 65, 63);
     box-shadow: 10px 14px 20px rgba(22, 151, 18, 0.788);
-    width: 350px;
+    width: 390px;
     height: 425px;
     transition: transform 0.2s ease-in-out;
 }
@@ -22,7 +22,7 @@
 }
 
 .miImagen{
-    width: 350px;
+    width: 390px;
     height: 300px;
     border-radius: 10px;
 }
@@ -32,7 +32,7 @@
     margin-top: -45px;
     margin-left: 4px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 18px;
     color: white;
     text-decoration: underline;
     text-decoration-color:white;
@@ -55,7 +55,7 @@
   .name:hover {
     color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-    transform: translateY(-2px);
+    transform: translateY(-6px);
   }
   
   .name:active {
@@ -82,7 +82,7 @@
 }
 .buttonX{
     position: absolute;
-    margin-left: 320px;
+    margin-left: 360px;
     height: 30px;
     width: 30px;
     border-top-right-radius: 10px;
